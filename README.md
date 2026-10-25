@@ -22,7 +22,7 @@ Before using the collector, deploy Dependency-Track somewhere that the Docker ho
 Clone this repository to the Linux host running your containers. In addition to Docker, that host needs `curl`, `flock`, and `crontab`.
 
 ```bash
-git clone https://github.com/<your-account>/dependencytrack-collector.git
+git clone https://github.com/ggfx/dependencytrack-collector.git
 cd dependencytrack-collector
 
 cp dtrack_collector.env.example dtrack_collector.env
